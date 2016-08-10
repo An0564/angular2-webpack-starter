@@ -1,3 +1,7 @@
+import { combineReducers, provideStore } from '@ngrx/store';
+import { compose } from '@ngrx/core/compose';
+import { runEffects } from '@ngrx/effects';
+
 // App
 export * from './app.component';
 export * from './app.service';
@@ -9,3 +13,19 @@ import { AppState } from './app.service';
 export const APP_PROVIDERS = [
   AppState
 ];
+
+export const APP_STORE = provideStore(
+  compose(
+    combineReducers
+  )({
+
+  })
+);
+
+export interface AppState {
+
+}
+
+export const APP_EFFECTS = runEffects([
+
+]);

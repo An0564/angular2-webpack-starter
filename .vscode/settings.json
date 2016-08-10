@@ -1,0 +1,7 @@
+// 將您的設定放入此檔案中以覆寫預設值和使用者設定。
+{
+  // TypeScript 組態
+
+  // 指定資料夾路徑，其中包含要使用的 tsserver 和 lib*.d.ts 檔案。
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

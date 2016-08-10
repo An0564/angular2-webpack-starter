@@ -1,0 +1,41 @@
+import {
+  AlertComponent,
+  ACCORDION_DIRECTIVES,
+  BUTTON_DIRECTIVES,
+  CAROUSEL_DIRECTIVES,
+  CollapseDirective,
+  DATEPICKER_DIRECTIVES,
+  DROPDOWN_DIRECTIVES,
+  MODAL_DIRECTIVES,
+  PAGINATION_DIRECTIVES,
+  PROGRESSBAR_DIRECTIVES,
+  RatingComponent,
+  TAB_DIRECTIVES,
+  TimepickerComponent,
+  TOOLTIP_DIRECTIVES,
+  TYPEAHEAD_DIRECTIVES,
+} from 'ng2-bootstrap/ng2-bootstrap';
+
+export const BOOTSTRAP_PIPES = [];
+
+export const BOOTSTRAP_DIRECTIVES = [
+  ...[
+    AlertComponent,
+    CollapseDirective,
+    RatingComponent,
+    TimepickerComponent,
+  ],
+  ...ACCORDION_DIRECTIVES,
+  ...BUTTON_DIRECTIVES,
+  ...CAROUSEL_DIRECTIVES,
+  ...DATEPICKER_DIRECTIVES,
+  ...DROPDOWN_DIRECTIVES,
+  ...MODAL_DIRECTIVES,
+  ...PAGINATION_DIRECTIVES,
+  ...PROGRESSBAR_DIRECTIVES,
+  ...TAB_DIRECTIVES,
+  ...TOOLTIP_DIRECTIVES,
+  ...TYPEAHEAD_DIRECTIVES  
+];
+
+export const BOOTSTRAP_PROVIDERS = [];

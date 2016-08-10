@@ -15,6 +15,10 @@ import { disableDeprecatedForms, provideForms } from '@angular/forms';
 import { provideWebpack } from '@angularclass/webpack-toolkit';
 import { providePrefetchIdleCallbacks } from '@angularclass/request-idle-callback';
 
+//ng2-translate
+import { TRANSLATE_PROVIDERS } from 'ng2-translate';
+// ng2-bootstrap
+import { BOOTSTRAP_PROVIDERS } from './ng2-bootstrap';
 
 import { routes, asyncRoutes, prefetchRouteCallbacks } from '../app/app.routes';
 import { APP_RESOLVER_PROVIDERS } from '../app/app.resolver';
@@ -35,7 +39,11 @@ export const APPLICATION_PROVIDERS = [
 
   ...HTTP_PROVIDERS,
 
-  { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ...TRANSLATE_PROVIDERS,
+  
+  ...BOOTSTRAP_PROVIDERS,
+
+  //{ provide: LocationStrategy, useClass: HashLocationStrategy }
 ];
 
 export const PROVIDERS = [
