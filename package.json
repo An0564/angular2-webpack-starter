@@ -8,7 +8,7 @@
     "typescript"
   ],
   "author": "Andy Wang <an0564@hotmail.com>",
-  "homepage": "https://github.com/angularclass/angular2-webpack-starter",
+  "homepage": "https://github.com/an0564/angular2-webpack-starter",
   "license": "MIT",
   "scripts": {
      "rimraf": "rimraf",
@@ -155,10 +155,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/angularclass/angular2-webpack-starter.git"
+    "url": "https://github.com/an0564/angular2-webpack-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/angularclass/angular2-webpack-starter/issues"
+    "url": "https://github.com/an0564/angular2-webpack-starter/issues"
   },
   "engines": {
     "node": ">= 4.2.1",
